@@ -2,7 +2,19 @@
     "compilerOptions": {                    
 		"target": "es5",
 		"module": "commonjs",
-		"removeComments": true
+		"removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "incremental": true,
+        "pretty": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "watch": true
 	},
     "include": [
         "src/**/*"
