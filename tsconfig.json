@@ -1,8 +1,8 @@
 {
-    "compilerOptions": {                    
-		"target": "es5",
-		"module": "commonjs",
-		"removeComments": true,
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "removeComments": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
@@ -16,7 +16,7 @@
         "noUnusedParameters": true,
         "preserveWatchOutput": true,
         "watch": true
-	},
+    },
     "include": [
         "src/**/*"
     ],
