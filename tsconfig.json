@@ -12,7 +12,7 @@
         "incremental": true,
         "pretty": true,
         "strict": true,
-        "noUnusedLocals": true,
+        "noUnusedLocals": false,
         "noUnusedParameters": true,
         "preserveWatchOutput": true,
         "watch": true
